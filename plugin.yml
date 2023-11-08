@@ -1,0 +1,17 @@
+name: ForgFix
+main: me.forg.fix.main
+version: 1.1
+api-version: 1.13
+commands:
+   f:
+      description: Pay your respects
+      usage: /f
+      permission: forg.respect
+      aliases:
+      - payrespects
+      - respect
+   shrug:
+      description: send a ¯\\_(ツ)_/¯ message
+      usage: /shrug
+      permission: forg.shrug
+      aliases: [shr]
