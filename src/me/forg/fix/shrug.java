@@ -11,7 +11,12 @@ public class shrug implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if(sender instanceof Player) {
 			Player player = (Player) sender;
-			player.chat("¯\\_(ツ)_/¯");
+			StringBuilder message = new StringBuilder();
+			for(int i = 0; i < args.length; i++) {
+				message.append(" ");
+				message.append(args[i]);
+			}
+			player.chat("¯\\_(ツ)_/¯"+message.toString());
 			return true;
 		}
 		return false;
