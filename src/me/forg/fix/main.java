@@ -7,6 +7,7 @@ public class main extends JavaPlugin {
 	getServer().getPluginManager().registerEvents(new listener(), this);
 	this.getCommand("f").setExecutor(new respect());
 	this.getCommand("shrug").setExecutor(new shrug());
+	this.getCommand("gibcookie").setExecutor(new cookie());
     }
     @Override
     public void onDisable() {

@@ -1,6 +1,6 @@
 name: ForgFix
 main: me.forg.fix.main
-version: 1.2
+version: 1.3
 api-version: 1.13
 commands:
    f:
@@ -15,3 +15,8 @@ commands:
       usage: /shrug
       permission: forg.shrug
       aliases: [shr]
+   gibcookie:
+      description: sends a cookie to another random online player
+      usage: /gibcookie
+      permission: forg.cookie
+      aliases: [cookie]
